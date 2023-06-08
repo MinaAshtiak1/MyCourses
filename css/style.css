@@ -1,0 +1,466 @@
+*{
+	box-sizing:border-box;
+ 
+}
+body{
+	background:#1EB99E;
+     font-family:tahoma;
+ 
+	
+}
+.container{
+	width:1170px;
+	margin:auto;
+    
+}
+nav{
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+.parent-nav{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+#heed{
+    width: 30%;
+    color:#0B2239;
+    text-align: center;
+    margin: auto;
+    padding: 10px 6px;
+    font-family: 'Righteous', cursive;
+ 
+}
+
+nav #menu{
+    border:0;
+    font-size: 22px;
+     color:#18BD9D;
+    font-weight: bold;
+    background-color: white;
+border:3px solid #18BD9D;
+    padding: 9px 11px 9px 11px;
+     border-radius: 1px;
+    margin: 10px;
+     
+}
+.hiddens{
+ display: none;   
+}
+#menu-bar{
+    width:100%;
+    padding: 40px 20px;
+    background-color: white;
+    
+}
+#menu-body{
+    margin-top: 50px;
+    box-shadow: 0px 0px 6px lightgray; 
+    width: 75%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 2px;
+}
+ #menu-body h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #1EB99E;
+    width: 100%;
+    color:white;
+    border-radius: 2px;
+    padding: 13px;
+    
+}
+ #main-for-inputs-menu{
+    width: 70%;
+    margin: auto;
+}
+ #main-for-inputs-menu label{
+    
+    padding: 4px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 18px;
+    width:95%; 
+    display: block;  
+    color: #18BD9D;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+     
+}
+ #main-for-inputs-menu input{
+     margin: auto;
+    margin-top: 10px;
+    width:95%; 
+    display: block;
+    padding:10px; 
+    background-color:#e2e2e28a;
+    border:0;
+}
+ #main-for-inputs-menu input:last-of-type{
+   padding: 16px 20px 22px 20px;
+}
+ #main-for-inputs-menu button{
+    margin-top: 30px;
+    display: block; 
+    width: 100%;
+    color:white;
+    font-weight: bold;
+    border: 0;
+    background-color: #18BD9D;
+    padding: 11px 10px 10px 10px;
+    font-size: 15.5px;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+.parent-sections{
+   display:flex;
+     flex-wrap: wrap;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+.sec{
+    height:640px;
+    border:2px solid #1EB99E;
+    padding: 10px;
+}
+#left-sec{
+    width:40%;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius:4px 4px 4px 4px;
+}
+#course-info{
+    margin-top: 60px;
+    box-shadow: 0px 0px 6px lightgray; 
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 2px;
+}
+#left-sec #course-info h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #1EB99E;
+    width: 100%;
+    color:white;
+    border-radius: 2px;
+    padding: 13px;
+    
+}
+#left-sec #course-info #main-for-inputs{
+    width: 70%;
+    margin: auto;
+}
+#left-sec  #course-info #main-for-inputs label{
+    
+    padding: 4px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 18px;
+    width:95%; 
+    display: block;  
+    color: #18BD9D;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+     
+}
+#left-sec #course-info #main-for-inputs input{
+     margin: auto;
+    margin-top: 10px;
+    width:95%; 
+    display: block;
+    padding:10px; 
+    background-color:#e2e2e28a;
+    border:0;
+}
+#left-sec #course-info #main-for-inputs input:last-of-type{
+   padding: 16px 20px 22px 20px;
+}
+#left-sec #course-info #main-for-inputs button{
+    margin-top: 30px;
+    display: block; 
+    width: 100%;
+    color:white;
+    font-weight: bold;
+    border: 0;
+    background-color: #18BD9D;
+    padding: 11px 10px 10px 10px;
+    font-size: 15.5px;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+#right-sec{
+    margin-left:2%;
+    width:58%; 
+    overflow: auto;
+     background-color: white;
+    padding: 20px;
+    border-radius:4px 4px 4px 4px;
+}
+#right-sec h2{
+    width:45%; 
+    background-color: #18BD9D;
+    border-radius: 3px;
+    padding: 18px 8px;
+    margin: auto;
+    color:white;
+    text-align: center;
+    border:2px solid white;
+    
+    
+}
+#right-sec .one-course{
+    border:2px solid #18BD9D;
+    width:90%; 
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+#right-sec .one-course .progress-container{
+    margin: auto;
+    width:100%; 
+    height: 30px;
+    background-color:whitesmoke;
+    position: relative;
+    margin-top: 10px;
+   
+    
+}
+#right-sec .one-course .progress-container .progress-value{
+    
+    height: 100%;
+    background-color: #2BC48A;
+    position:absolute;
+    
+}
+#right-sec .one-course .before-progress{
+    display: flex;
+    justify-content:space-between;
+    font-weight: bold;
+    color:white;
+    font-size: 14.5px;
+}
+#right-sec .one-course .before-progress .name-course{
+    background-color:#2BC48A ;
+    padding: 4px;
+    border-radius: 3px;
+}
+#right-sec .one-course .before-progress .improve-radio{
+    background-color:#2BC48A;
+    padding: 4px;
+    border-radius: 3px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 6px;
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+nav #menu{
+   
+    display:none
+}
+    #menu-bar{
+display: none;
+    
+}
+#menu-body{
+    display: none;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+nav #menu{
+
+    display:inherit;
+    padding: 12px 10px
+}
+    #left-sec{
+display: none;
+}
+#right-sec{
+   margin: auto;
+    width:90%; 
+}
+     .container{
+        width:100%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+nav #menu{
+line-height: 2;
+      display:inherit;
+}
+    #heed{
+        width:70%
+    }
+    nav #menu i{
+line-height: 2;
+}
+    #left-sec{
+display: none;
+}
+#right-sec{
+   margin: auto;
+    width:90%; 
+}
+     .container{
+        width:100%;
+    }
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+nav #menu{
+ font-size: 21px; 
+     padding: 0px 19px 0px 19px;
+    display:inline;
+}
+
+ 
+        #left-sec{
+display: none;
+}
+#right-sec{
+   margin: auto;
+    width:90%; 
+}
+     .container{
+        width:100%;
+    }
+        #right-sec h2{
+    width:65%; 
+}
+        #menu-body{
+
+    width:80%;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+nav #menu{
+
+     display:inherit;
+}
+        #left-sec{
+display: none;
+}
+#right-sec{
+   margin: auto;
+    width:90%; 
+}
+.container{
+ width:100%;
+    }
+        #heed{
+    width: 40%;
+font-size: 22px;
+}
+nav #menu{
+    font-size: 19px; 
+   line-height: 2;
+       
+     padding: 4px 9px 3.5px 9px;
+}
+    nav #menu i{
+    font-size: 19px; 
+   line-height: 2
+}
+ #right-sec h2{
+    width:80%; 
+}
+        #menu-body{
+
+    width:100%;
+}
+}
+/* Portrait phones and smaller */
+@media (max-width:400px) {
+nav #menu{
+
+  display:inherit;
+}
+        #left-sec{
+display: none;
+}
+#right-sec{
+   margin: auto;
+   width:90%; 
+}
+.container{
+ width:100%;
+}
+ #heed{
+width: 30%;
+font-size: 18px;
+}
+nav #menu{
+    padding: 4px 9px 3.2px 9px;
+    font-size: 16.5px; 
+    line-height: 2.0
+}
+nav #menu i{
+
+    line-height: 1.6
+}
+ #right-sec h2{
+    width:80%; 
+    font-size:18px ;
+}
+#menu-body{
+width:100%;
+}
+}
+/* Portrait phones and smaller */
+@media (max-width:330px) {
+nav #menu{
+
+  display:inherit;
+}
+        #left-sec{
+display: none;
+}
+#right-sec{
+   margin: auto;
+   width:90%; 
+}
+.container{
+ width:100%;
+}
+    #heed{
+    width: 30%;
+font-size: 15px;
+}
+nav #menu{
+    padding: 4px 9px 3.2px 9px;
+    font-size: 16.5px; 
+    line-height: 2.0
+}
+nav #menu i{
+
+    line-height: 1.6
+}
+
+ #right-sec h2{
+    width:80%; 
+    font-size:15px;
+}
+    #menu-body{
+
+    width:100%;
+}
+}
